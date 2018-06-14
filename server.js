@@ -19,11 +19,7 @@ var db;
 
 // Connect to the database before starting the application server.
 
-// var uri = 'mongodb://user:pass@host:port/db';
-
-// mongodb.MongoClient.connect(process.env.MONGODB_URI, function (err, database) { 
-
-var uri = 'mongodb://leo:leowithn@ds149491.mlab.com:49491/restfullness';
+var uri = 'mongodb://user:pass@host:port/db';
 
 mongodb.MongoClient.connect(uri, function (err, database) {
     if (err) {
